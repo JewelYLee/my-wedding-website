@@ -1,0 +1,206 @@
+/* CSS file for A&J wedding website*/
+/*
+html, body, div, span, applet, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+form, label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td,
+{
+	margin: 0;
+	padding:0;
+	border: 0;
+	outline:0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align:baseline; 
+	background:transparent;
+	font-family:'proxima-nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;padding:0px 0 0px 0
+}
+body {font: 0.95em/1.333 Arial, sans-serif; color:#202020; background:#FFF;}
+h1, h2, h3, h4, h5, h6 {font-weight: bold;}
+h1 {font-size: 2em; margin: 2em 0 0.5em; padding: 0.25em 0;}
+h2 {font-size: 1.5em; margin: 2em 0 0.33em; padding: 0.25em 0;}
+h3 {font-size: 1.33em; margin: 2em 0 0.25em; padding: 0.25em 0;}
+h4 {font-size: 1.1em; margin: 2em 0 0.5em;}
+h5 {font-size: 1em; margin: 2em 0 0.5em;}
+h6 {font-size: 0.85em; margin: 0.5em 0 0;}
+p {margin:0.33em 0 1em 0;}
+ul, ol {margin:1em 0; padding-left:2.5em}
+*/
+  html {background:#ffffff}
+/* logo */
+  img.logo {
+	height:240px;
+	margin:0;
+	float:left;
+	border:0;
+/*        opacity:0.9;
+	filter:alpha(opacity=90); 
+	-webkit-box-reflect: right -3px
+	-webkit-gradient(linear, 0% 80%,100% 100%, from(rgba(255,255,255,0)), to(white));
+*/
+  }
+  img.pic0 {
+	width:300px;
+	margin:0;
+	opacity:0.9;
+	filter:alpha(opacity=90); 
+  }
+  img.pic {
+	height:450px;
+	margin:0;
+  }
+  img.pic2 {
+	height:320px;
+	margin:0;
+	opacity:0.9;
+	filter:alpha(opacity=90); 
+  }
+  img.pic3 {
+	width:930px;
+	margin:0;
+  }
+  img.pic1 {
+	height:300px;
+	margin:0;
+	float:center;
+  }
+  img.map {
+	width:600px;
+	margin:0;
+	float:left;
+  }
+/* navbar */
+
+  .menu_container {
+	width:960px;
+	margin:60px auto;
+	z-index: 100; /* z-index defines the stack order of an element*/
+	position: relative;
+  }
+  .menu_container ul {
+	list-style-type:none;
+	margin:0;
+	padding:50px;
+	float:right;
+	text-align:right;
+  }
+  .menu_container ul li {
+	color: #777777;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	line-height: 140%;
+	margin:10px;
+	padding:0;
+  }
+  .menu_container ul li a:link { color: #777777; text-decoration: none }
+  .menu_container ul li a:visited { color: #777777; text-decoration: none }
+  .menu_container ul li a:hover { color: #BA1027; text-decoration: none }
+  .menu_container ul :hover { color: #BA1027; text-decoration: none }
+  .menu_container ul li ul li a:hover { color: #09898B; text-decoration: none }
+  .menu_container ul li a:active { color: #777777; text-decoration: none }
+/* nest list inside navbar*/
+  .menu_container ul li ul {
+  	display:none;
+	position:absolute;
+	top:20px;
+	left:0;
+	padding: 12px 9px 12px 9px;
+	width: 220px;
+	background:#ffffff;
+	opacity:0.85;
+	filter:alpha(opacity=85); 
+	text-align:left;
+	z-index:1000;
+  } 
+  ul li {
+	display: inline;
+	position: relative;
+	margin:0 20px 0 0;
+	cursor: pointer;
+  }
+  ul li ul li {
+	display: block;
+	cursor: pointer;
+	margin:0;
+  }
+  ul li ul {
+	list-style:none;
+	position:absolute;
+	left:140px;
+	top:0;
+	display:none;
+	width:125px;
+	border-left:1px solid #BA1027;
+  }
+  ul li:hover ul {display:block}
+/* main content*/
+  .main_content {
+	width:960px;
+	height:500px;
+	padding:10px;
+	margin:250px auto 100px auto;
+	float:center;
+  }
+  h1 {
+	color: black;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	line-height: 300%;
+	margin:20px;
+	padding:0;
+	float:left;
+  }
+  h2 {
+	color: black;
+	width:200px;
+	font-family: 'Lato', sans-serif;
+	font-size:18px;
+	font-weight: 300;
+	line-height: 180%;
+	margin:20px;
+	padding:0;
+  }
+  h3 {
+	color: black;
+	font-family: 'Lato', sans-serif;
+	font-size:15px;
+	font-weight: 300;
+	line-height: 180%;
+	margin:20px;
+	padding:0;
+	float:top;
+  }
+  p {
+	color: #555555;
+	font-family: 'Lato', sans-serif;
+	font-size:15px;
+	font-weight: 100;
+	line-height: 140%;
+	margin:20px;
+	padding:0;
+  }
+  h6 {
+	color:#777777;
+	font-size:10px;
+	font-family:'Lato', sans-serif;
+	font-weight:100;
+	line-height:140%;
+	margin:0;
+  }
+.MediumTurquoise { 
+        background-color: #48D1CC;
+        width: 250px;
+        height: 450px;
+        float: right;
+}
+.Red  { 
+        background-color: #F29DA1;
+        width: 250px;
+        height: 450px;
+        float: left;
+}
