@@ -10,4 +10,4 @@ At that time I did't know how to use grid and had no idea about responsive web d
 
 Thanks for reading.   
 
-- Jewel 2015.05.27
+Jewel 2015.05.27
