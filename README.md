@@ -6,8 +6,8 @@ This is my wedding website. It's my very first hand-coded website and also my fi
 
 Besides the html + CSS codes, I designed the graphics used in this website as well (Mr. potato and Miss Strawberry). I use Wacom pen tablet with free software "Sketchbook Express" which I got for 2014 christmas gift from my husband Alan:) 
 
-At that time I did't know how to use grid and had no idea about responsive web design. So I used table to align my content and my code looks terrible. However, it's my first website!
+At that time I did't know how to use grid and had no idea about responsive web design. So I used table to align my content and my code looks terrible. Well... it's my first website!
 
+Thanks for reading.   
 
-
-Thanks for reading.
+- Jewel 2015.05.27
