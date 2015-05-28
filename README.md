@@ -1,5 +1,6 @@
-# my-wedding-website 
-##version 1.0 Last update: Jan. 4 2014
+# my-wedding-website 1.0
+##Author: Jewel Y Chu 
+##Last update: Jan. 4 2014
 
 This is my wedding website. It's my very first hand-coded website and also my final project for UW Course "Web Design and Development Foundations" (09, 2013 - 01, 2014)
 
